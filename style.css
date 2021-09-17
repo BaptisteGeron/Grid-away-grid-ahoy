@@ -12,66 +12,53 @@ main {
 	grid-auto-flow: row;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 20px;
+	grid-auto-rows: min-content;
 }
 
 .card {
 	background-color: aliceblue;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px rgb(72, 139, 201);
-	display: block;
+	margin:0 auto;
+	text-align: center;
+}
+
+img {
+	height: 50px;
+	width:50px;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-align: center;
 	text-transform: capitalize;
+	margin: 1rem;
 }
 
 p {
 	font-size: 1rem;
 	text-align: center;
-
+	line-height: 1.5rem;
+	margin: 1rem;
 }
 
 a {
+	display: inline-block;
 	text-align: center;
 	text-decoration: none;
+	text-transform: uppercase;
 	color: inherit;
-	margin: 1rem;
+	margin-top: 2rem;
+	margin:0 auto;
 	padding: 1rem;
 }
 
 a:hover {
 	border-radius: 2rem;
-	
 	background-color: aqua;
 	color: aliceblue;
 	box-shadow: 2px 2px 6px rgb(103, 110, 110);
 }
 
-img {
-	height: 50px;
-	margin: auto;
-}
-
-.logo {
-	margin-top: 2rem;
-	margin-bottom: 1rem;
-}
-
-.title {
-margin: 1rem;
-}
-
-.description {
-margin: 1rem;
-}
-
-.link {
-	margin: 1rem;
-}
-
-.centerlink {
-	text-align: center;
-	text-transform: uppercase;
-}
