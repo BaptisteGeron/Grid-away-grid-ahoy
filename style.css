@@ -126,3 +126,12 @@ ul{
 	margin: 0.3rem;
 	color: aliceblue;
 }
+
+#sandwich {
+	height: 30px;
+	width: 30 px;
+	fill: #ffffff;
+	position: fixed;
+	top: -1rem;
+	display: none;
+}
