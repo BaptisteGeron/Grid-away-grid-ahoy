@@ -152,8 +152,8 @@ ul{
 #menuToggle
 {
   position: fixed;
-  top: 50px;
-  left: 50px;
+  top: 10px;
+  left: 10px;
   
   z-index: 1;
   
@@ -200,7 +200,7 @@ ul{
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #332f2f;
   border-radius: 3px;
   
   z-index: 1;
