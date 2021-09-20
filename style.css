@@ -11,11 +11,13 @@ body main {
 body main {
 		grid-template-columns: repeat(1, 1fr);
 	}
+body header {
+	display: none;
+}
 }
 
 body {
 	background-color: rgb(217, 231, 231);
-	 margin: 20px;
 	 font-family: 'Roboto', sans-serif;
 }
 
@@ -25,6 +27,7 @@ main {
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 20px;
 	grid-auto-rows: min-content;
+	margin: 20px;
 }
 
 .card {
@@ -91,3 +94,43 @@ a:hover {
 	box-shadow: 5px 5px 20px rgb(103, 110, 110);
 }
 
+/*Sidebar*/
+
+header {
+height: fit-content;
+background-color: rgb(95, 95, 95);
+margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	color: aliceblue;
+}
+
+nav {
+	margin: 0rem;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0rem;
+}
+
+.side {
+	padding: 0rem;
+	margin: 0.3rem;
+	color: aliceblue;
+}
+
+#sandwich {
+	height: 30px;
+	width: 30 px;
+	fill: #ffffff;
+	position: fixed;
+	top: -1rem;
+	display: none;
+}
